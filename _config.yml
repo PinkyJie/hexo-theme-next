@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "前端, 溜冰, Mac"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2010
 
 # icon between year and author @Footer
 authoricon: heart
@@ -38,10 +38,10 @@ seo: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
-  #about: /about
+  categories: /categories
   archives: /archives
   tags: /tags
+  about: /about
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -146,16 +146,16 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
-  Twitter: twitter
-  Weibo: weibo
+  GitHub: https://github.com/PinkyJie
+  Twitter: https://twitter.com/PinkyJie
+  Weibo: http://weibo.com/pinkyway
+  StackOverflow: http://stackoverflow.com/users/689948/pinkyjie
 
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
-
+avatar: http://pinkyjie-blog.qiniudn.com/images/avatar.jpg
 
 # Table Of Contents in the Sidebar
 toc:
@@ -168,14 +168,14 @@ toc:
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
-#creative_commons: by-nc-sa
+creative_commons: by-nc-sa
 #creative_commons:
 
 
 sidebar:
   # Sidebar Position, available value: left | right
-  position: left
-  #position: right
+  # position: left
+  position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
@@ -277,13 +277,13 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: false
+  enable: true
   per_page: false
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 
 # Swiftype Search API Key
-#swiftype_key:
+swiftype_key: 8k3UxSuRWYkrhVg55bC3
 
 # Baidu Analytics ID
 #baidu_analytics:
@@ -298,7 +298,7 @@ mathjax:
 #hypercomments_id:
 
 # Gentie productKey
-#gentie_productKey:
+gentie_productKey: 97c12f7d7900436ca445becffbe0dc1a
 
 # changyan
 changyan:
@@ -331,17 +331,17 @@ changyan:
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+google_site_verification: o7yQBnLIoWby8Y5vNMQywBiMtev-ilWjXt89RQpTvVw
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-45012422-1
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
 #yandex_site_verification:
 
 # CNZZ count
-#cnzz_siteid:
+cnzz_siteid: 1253033676
 
 # Application Insights
 # See https://azure.microsoft.com/en-us/services/application-insights/
