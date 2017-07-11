@@ -324,6 +324,14 @@ changyan:
   appid:
   appkey:
 
+# Gitment comments
+gitment:
+  enable: true
+  owner: 马斯特
+  repo: https://github.com/PinkyJie/pinkyjie.github.com
+  client_id: f9f9e61911dad3c54abd
+  client_secret: 2de8c1e8bc1bf553827b0da3bf65ae6e7f5956b7
+
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
 #youyan_uid: your uid
@@ -369,7 +377,7 @@ cnzz_siteid: 1253033676
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
-  ua_enable: true
+  ua_enable: false
   admin_enable: false
   user_id: 0
   #admin_nickname: Author
