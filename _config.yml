@@ -140,9 +140,11 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
+social:
   #LinkLabel: Link
-
+  GitHub: https://github.com/PinkyJie
+  Twitter: https://twitter.com/PinkyJie
+  StackOverflow: http://stackoverflow.com/users/689948/pinkyjie
 
 # Social Links Icons
 # Icon Mapping:
@@ -153,11 +155,9 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: https://github.com/PinkyJie
-  Twitter: https://twitter.com/PinkyJie
-  Weibo: http://weibo.com/pinkyway
-  StackOverflow: http://stackoverflow.com/users/689948/pinkyjie
-
+  GitHub: github-alt
+  Twitter: twitter
+  StackOverflow: stack-overflow
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
@@ -327,8 +327,8 @@ changyan:
 # Gitment comments
 gitment:
   enable: true
-  owner: 马斯特
-  repo: https://github.com/PinkyJie/pinkyjie.github.com
+  owner: PinkyJie
+  repo: pinkyjie.github.com
   client_id: f9f9e61911dad3c54abd
   client_secret: 2de8c1e8bc1bf553827b0da3bf65ae6e7f5956b7
 
