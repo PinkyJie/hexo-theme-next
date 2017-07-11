@@ -8,9 +8,10 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
+    <div id="sidebar-dimmer"></div>
     <div class="sidebar-inner">
 
-      {% set display_toc = is_post and theme.toc.enable %}
+      {% set display_toc = is_post and theme.toc.enable or is_page and theme.toc.enable %}
 
       {% if display_toc and toc(page.content).length > 1 %}
         <ul class="sidebar-nav motion-element">
