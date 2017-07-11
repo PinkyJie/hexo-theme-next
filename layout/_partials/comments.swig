@@ -30,7 +30,7 @@
       <div id="SOHUCS"></div>
 
     {% elseif theme.gitment.enable %}
-      <div id="container" style="display:none"></div>
+      <div id="container" class="gitment_container"></div>
       <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
       <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
       <script>
@@ -47,8 +47,6 @@
           }
         }
         function showGitment() {
-          $("#gitment_title").attr("style", "display:none");
-          $("#container").attr("style", "").addClass("gitment_container");
           var gitment = new Gitment({
             id: window.location.pathname,
             theme: myTheme,
