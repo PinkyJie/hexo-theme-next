@@ -30,7 +30,6 @@
       <div id="SOHUCS"></div>
 
     {% elseif theme.gitment.enable %}
-      <div onclick="showGitment()" id="gitment_title" class="gitment_title">显示评论</div>
       <div id="container" style="display:none"></div>
       <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
       <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
@@ -62,6 +61,7 @@
           });
           gitment.render('container');
         }
+        showGitment();
       </script>
     {% endif %}
   </div>
